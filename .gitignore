@@ -1,2 +1,12 @@
+# Exclude CSV files by default
 *.csv
-.DS_Store 
+
+# Allow CSV files in Final_Project
+!Final_Project/*.csv
+
+# Specifically exclude large CSV files in Project_2
+Project_2/*.csv
+
+# Other files to ignore
+.DS_Store
+.ipynb_checkpoints/ 
